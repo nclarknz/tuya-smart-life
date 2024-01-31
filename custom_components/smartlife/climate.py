@@ -60,6 +60,12 @@ CLIMATE_DESCRIPTIONS: dict[str, SmartLifeClimateEntityDescription] = {
         key="kt",
         switch_only_hvac_mode=HVACMode.COOL,
     ),
+    # IR Air conditioner
+    # https://developer.tuya.com/en/docs/iot/categorykt?id=Kaiuz0z71ov2n
+    "infrared_ac": SmartLifeClimateEntityDescription(
+        key="infrared_ac",
+        switch_only_hvac_mode=HVACMode.COOL,
+    ),
     # Heater
     # https://developer.tuya.com/en/docs/iot/f?id=K9gf46epy4j82
     "qn": SmartLifeClimateEntityDescription(
